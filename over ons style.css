@@ -160,37 +160,66 @@ body {
 }
 
 
-/* Hero Section */
-.OverOns {
-    max-width: 700px;
-    height: 40px;
-    padding: 0 auto;
+/* Over Ons Section */
+.information {
+  padding: 80px 0px;
 }
 
-.OverOns-item0{
+.information_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.row {
   display: flex;
-  justify-content: center;
-  color: #fff;
+  flex-wrap: wrap;
 }
 
-.OverOns-item1{
-  display: flex;
-  justify-content: center;
-  color: #fff;
+.flex {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 20px;
 }
 
-.OverOns-item2{
-  display: flex;
-  justify-content: center;
-  color: #fff;
+.information h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #ff7835;
 }
 
-.OverOns-item3{
-  display: flex;
-  justify-content: center;
+.information p {
+  font-size: 18px;
+  line-height: 1.5;
   color: #fff;
+  margin-bottom: 20px;
 }
 
+.information img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 25px;
+  border: 2px solid #ff7835;
+  background-color: #121212;
+}
+
+.btn:hover {
+  transition: all 0.2s ease;
+  background-color: #ff7835;
+}
+/* Over Ons End */
 
 /* Footer Section */
 footer {
