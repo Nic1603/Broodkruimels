@@ -99,11 +99,11 @@ body {
       transition: all 0.5s ease;
       height: 50vh;
       z-index: -1;
-      background-color: #542401;
+      background-color: #121212;
   }
 
   .navbar-menu.active {
-      background-color: #542401;
+      background-color: #121212;
       top: 11%;
       opacity: 1;
       transition: all 0.3s ease;
