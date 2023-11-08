@@ -76,7 +76,6 @@ body {
 
 
 /* Responsive Navbar Section */
-
 @media screen and (max-width: 830px) {
   .navbar-container {
       display: flex;
@@ -99,11 +98,11 @@ body {
       transition: all 0.5s ease;
       height: 50vh;
       z-index: -1;
-      background-color: #542401;
+      background-color: #121212;
   }
 
   .navbar-menu.active {
-      background-color: #542401;
+      background-color: #121212;
       top: 11%;
       opacity: 1;
       transition: all 0.3s ease;
@@ -162,7 +161,6 @@ body {
 
 
 /* Hero Section */
-
 .OverOns {
     max-width: 700px;
     height: 40px;
@@ -193,8 +191,8 @@ body {
   color: #fff;
 }
 
-/* You can add more styles as needed */
 
+/* Footer Section */
 footer {
 background-color: #121212;
 color: #fff;
