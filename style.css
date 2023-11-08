@@ -10,7 +10,11 @@
 }
 
 body {
-  background-color: #000000;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75,),rgba(0,0,0,0.75,)),url(images/bakker_overons3.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .navbar {
@@ -77,7 +81,7 @@ body {
 
 /* Responsive Navbar Section */
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 920px) {
   .navbar-container {
       display: flex;
       justify-content: space-between;
@@ -99,12 +103,12 @@ body {
       transition: all 0.5s ease;
       height: 50vh;
       z-index: -1;
-      background-color: #542401;
+      background-color: #121212;
   }
 
   .navbar-menu.active {
-      background-color: #542401;
-      top: 11%;
+      background-color: #121212;
+      top: 8%;
       opacity: 1;
       transition: all 0.3s ease;
       z-index: 99;
@@ -137,7 +141,7 @@ body {
 
   #mobile-menu {
       position: absolute;
-      top: 3%;
+      top: 2%;
       right: 5%;
       transform: translate(5%, 20%);
   }
@@ -164,22 +168,27 @@ body {
 /* Home Hero Section */
 
 .main {
-  background-color: #121212;
-  height: 120vh;
+  height: 100vh;
+  background-image: url('images/bakker_overons3.jpg');
+  background-repeat: ;
+  background-size: cover;
 }
 
 .main-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  text-align: center;
   align-items: center;
   justify-content: center;
   margin: 0;
-  height: 99vh;
-  background-color: #121212;
+  height: 100vh;
   z-index: 1;
-  width: 100%;
-  max-width: 1300px;
+  max-width: 2000px;
   padding: 0 50px;
+}
+.main-content {
+  flex: 0 0 50%;
+  max-width: 90%;
+  padding: 0 20px;
 }
 
 .main-content h1 {
@@ -193,21 +202,27 @@ body {
 
 .main-content h2 {
   font-size: 50px;
-  color: rgb(255, 255, 255);
+  color: #fff;
   letter-spacing: -1px;
   padding: 0 80px;
 }
 
-.main-img--container {
-  margin-right: -50px;
-  text-align: center;
+.btn {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  margin: 40px;
+  padding: 15px ;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 40px;
+  border: 3px solid #ff7835;
 }
 
-#main-img {
-  height: 80%;
-  width: 80%;
+.btn:hover {
+  transition: all 0.2s ease;
+  background-color: #ff7835;
 }
-
 
 /* Home Responsive Hero Section */
 @media screen and (max-width: 1080px) {
@@ -216,8 +231,8 @@ body {
       grid-template-columns: auto;
       justify-self: center;
       align-items: center;
-      width: 75%;
-      height: 80%;
+      width: 100%;
+      height: 100%;
       margin: 0 auto;
   }
 
@@ -227,7 +242,7 @@ body {
   }
 
   .main-content h1 {
-      font-size: 4rem;
+      font-size: 3.3rem;
       margin-top: 2rem;
   }
 
@@ -235,28 +250,25 @@ body {
       font-size: 2.5rem;
   }
 
-  #main-img {
-      align-items: center;
-      justify-content: center;
-      margin-left: -90px;
-      width: 50%;
+  .btn {
+    font-size: 18px;
   }
+
+
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 520px) {
   .main-content h1 {
-      font-size: 3rem;
+      font-size: 3.3rem;
       margin-top: 3rem;
   }
 
   .main-content h2 {
-      font-size: 2rem;
+      font-size: 2.1rem;
   }
-  #main-img {
-      align-items: center;
-      justify-content: center;
-      margin-left: -80px;
-      width: 70%;
+
+  .btn {
+    font-size: 15px;
   }
 }
 
@@ -267,7 +279,7 @@ background: #fff;
 display: flex;
 flex-direction: column;
 align-items: center;
-height: 225vh;
+height: 200vh;
 align-items: center;
 justify-content: center;
 }
@@ -310,7 +322,7 @@ padding: 20px;
 text-align: center;
 margin: 50px;
 margin-bottom: 50px;
-/* border: 5px solid #000000; */
+border: 3px solid #d4d4d4;
 border-radius: 30px;
 box-shadow: 5px 5px 5px rgb(128, 94, 94);
 }
@@ -341,3 +353,11 @@ font-size: 18px;
 margin-top: 5px;
 color: #ff7835;
 }
+
+
+
+@media screen and (max-width: 1080px) {
+
+}
+
+
