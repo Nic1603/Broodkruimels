@@ -72,12 +72,10 @@ body {
 .navbar-link:hover { 
   color: rgb(255, 240, 173);
   transition: all 0.2s ease;
-  text-decoration: none;
 }
 
 
 /* Responsive Navbar Section */
-
 @media screen and (max-width: 830px) {
   .navbar-container {
       display: flex;
@@ -162,48 +160,67 @@ body {
 }
 
 
-/* Hero Section */
-
-.contact-container {
-    max-width: 800px;
-    margin: 150px auto;
-    background-color: #000000;
-    color: #ffffff;
-    padding: 80px;
-    border-radius: 25px;
-    box-shadow: 0 0 30px #cc612b;
-    text-align: center;
+/* Over Ons Section */
+.information {
+  padding: 80px 0px;
 }
 
-
-a {
-    text-decoration: none;
-    color: #ff7835;
+.information_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-a:hover {
-    text-decoration: underline;
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-/* You can add more styles as needed */
-
-  /* Test */
-
-  .slideshow-container {
-    position: relative;
-    max-width: 800px;
-    margin: 0 auto;
+.flex {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 20px;
 }
 
-.slide {
-    display: none;
+.information h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #ff7835;
 }
 
-.slide img {
-    width: 100%;
-    height: auto;
+.information p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 20px;
 }
 
+.information img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 25px;
+  border: 2px solid #ff7835;
+  background-color: #121212;
+}
+
+.btn:hover {
+  transition: all 0.2s ease;
+  background-color: #ff7835;
+}
+/* Over Ons End */
+
+/* Footer Section */
 footer {
 background-color: #121212;
 color: #fff;
