@@ -77,7 +77,7 @@ body {
 
 /* Responsive Navbar Section */
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 920px) {
   .navbar-container {
       display: flex;
       justify-content: space-between;

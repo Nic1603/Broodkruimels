@@ -4,37 +4,33 @@ include 'config.php';
 
 $msg = "";
 
-
 if (isset($_POST['submit'])) {
-    $naam = mysqli_escape_string($connect, $_POST['naam']);
-    $email = mysqli_escape_string($connect, $_POST['email']);
-    $password = mysqli_escape_string($connect, md5($_POST['password']));
-    $confirm_password = mysqli_escape_string($connect, md5($_POST['confirm_password']));
-
+    $naam = mysqli_real_escape_string($connect, $_POST['naam']);
+    $email = mysqli_real_escape_string($connect, $_POST['email']);
+    $password = mysqli_real_escape_string($connect, md5($_POST['password']));
+    $confirm_password = mysqli_real_escape_string($connect, md5($_POST['confirm_password']));
 
     if (mysqli_num_rows(mysqli_query($connect, "SELECT * FROM users WHERE email='{$email}'")) > 0) {
-        $msg = "<div class='alert alert-danger'style='font-weight:bold; color:#58a3db; font-size:11px; ;' ;>{$email} - Email adres bestaat al.</div>";
+        $msg = "<div class='alert alert-danger' style='font-weight:bold; color:#58a3db; font-size:11px;'>{$email} - Email adres bestaat al.</div>";
     } else {
         if ($password === $confirm_password) {
-            $sql = "INSERT INTO users ('naam', 'email', 'password', 'confirm_password') VALUES (''{$naam}'',''{$email}'',''{$password}'',''{$confirm_password}'')";
+            $sql = "INSERT INTO users (naam, email, password, confirm_password) VALUES ('$naam', '$email', '$password', '$confirm_password')";
             $result = mysqli_query($connect, $sql);
 
             if ($result) {
-               header(Location: login.php);
+                header("Location: login.php");
+                exit(); // Add this line to prevent further execution of the script
             } else {
-                $msg = "<div class='alert alert-danger' style='font-weight: bold; color:#c80000; font-size:13px;; margin:10px; ';> ERROR, probeert het opnieuw.</div>";
+                $msg = "<div class='alert alert-danger' style='font-weight: bold; color:#c80000; font-size:13px; margin:10px;'>ERROR, probeert het opnieuw.</div>";
             }
         } else {
-            $msg = "<div class='alert alert-danger' style='font-weight: bold; color:#c80000; font-size:13px; margin:10px; ';> Wachtwoord / Herhaal Wachtwoord niet gelijk.</div>";
+            $msg = "<div class='alert alert-danger' style='font-weight: bold; color:#c80000; font-size:13px; margin:10px;'>Wachtwoord / Herhaal Wachtwoord niet gelijk.</div>";
         }
     }
-    
 }
 
-
-
-
 ?>
+
 
 
 
@@ -72,7 +68,7 @@ if (isset($_POST['submit'])) {
                 <input type="password" id="confirm_password" name="confirm_password" minlength="6" required>
             </div>
 
-            <?php echo $msg ?>;
+            <?php echo $msg ?>
 
             <input type="submit" id="submit" name="submit" value="Register">
         </form>
