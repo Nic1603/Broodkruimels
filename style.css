@@ -170,7 +170,7 @@ body {
 .main {
   height: 100vh;
   background-image: url('images/bakker_overons3.jpg');
-  background-repeat: ;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
