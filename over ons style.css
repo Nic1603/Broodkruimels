@@ -138,14 +138,14 @@ body {
   }
 
   .navbar-menu.active {
-      background-color: #121212;
-      top: 11%;
-      opacity: 1;
-      transition: all 0.3s ease;
-      z-index: 99;
-      height: 55vh;
-      font-size: 1.2rem;
-  }
+    background-color: #121212;
+    top: 8%;
+    opacity: 1;
+    transition: all 0.3s ease;
+    z-index: 99;
+    height: 60vh;
+    font-size: 1.2rem;
+}
 
   #navbar-logo {
       padding-left: 25px;
@@ -172,7 +172,7 @@ body {
 
   #mobile-menu {
       position: absolute;
-      top: 3%;
+      top: 2%;
       right: 5%;
       transform: translate(5%, 20%);
   }
@@ -180,6 +180,16 @@ body {
   .navbar-toggle .bar {
       display: flex;
       cursor: pointer;
+  }
+
+  .navbar-menu .dropdown-content {
+    text-align: center; /* Center the content */
+    width: 100%; /* Take full width */
+    left: 0; /* Align to the left edge */
+  }
+
+  .navbar-menu .dropdown-content a {
+    display: inline-block; /* Display links in a row */
   }
 
   #mobile-menu.is-active .bar:nth-child(2) {
@@ -255,6 +265,11 @@ body {
   background-color: #ff7835;
 }
 
+@media screen and (max-width: 690px) {
+  .information h2 {
+    font-size: 1.8rem;
+  }
+}
 
 @media screen and (max-width: 480px) {
   .information {
@@ -267,7 +282,7 @@ body {
 
   .information h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .information p {

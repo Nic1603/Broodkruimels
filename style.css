@@ -114,6 +114,7 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+
 /* Responsive Navbar Section */
 @media screen and (max-width: 920px) {
   .navbar-container {
