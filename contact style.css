@@ -72,6 +72,7 @@ body {
 .navbar-link:hover { 
   color: rgb(255, 240, 173);
   transition: all 0.2s ease;
+  text-decoration: none;
 }
 
 .navbar-menu .dropdown-content {
