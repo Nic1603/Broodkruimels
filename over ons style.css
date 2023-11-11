@@ -230,13 +230,13 @@ body {
 }
 
 .information h2 {
-  font-size: 45px;
+  font-size: 55px;
   margin-bottom: 20px;
   color: #ff7835;
 }
 
 .information p {
-  font-size: 18px;
+  font-size: 22px;
   line-height: 1.5;
   color: #fff;
   margin-bottom: 20px;
@@ -246,7 +246,7 @@ body {
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 .btn {

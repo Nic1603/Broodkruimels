@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
   
 /* Navbar Section */
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -116,7 +115,6 @@ body {
 }
 
 
-/* Responsive Navbar Section */
 @media screen and (max-width: 920px) {
   .navbar-container {
       display: flex;
@@ -209,10 +207,11 @@ body {
       transform: translateY(-8px) rotate(-45deg);
   }
 }
+/* Navbar End */
 
 
-/* Home Hero Section */
 
+/* Main Section */
 .main {
   height: 100vh;
   background-image: url('images/bakker_overons3.jpg');
@@ -270,7 +269,6 @@ body {
   background-color: #ff7835;
 }
 
-/* Home Responsive Hero Section */
 @media screen and (max-width: 1080px) {
   .main-container {
       display: grid;
@@ -299,8 +297,6 @@ body {
   .btn {
     font-size: 18px;
   }
-
-
 }
 
 @media screen and (max-width: 520px) {
@@ -317,6 +313,8 @@ body {
     font-size: 15px;
   }
 }
+/* Main End */
+
 
 
 /* Services Section */
@@ -325,7 +323,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 200vh;
+  height: 155vh;
 }
 
 .services h1 {
@@ -342,6 +340,7 @@ body {
 }
 
 .services p {
+  font-size: 20px;
   margin-top: 15px;
   color: #121212;
 }
@@ -400,6 +399,35 @@ margin-top: 60px;
     width: 300px;
   }
 }
+/* Services End */
+
+
+
+/* Info Section */
+/* .info {
+  padding: 80px 0px;
+  background: #121212;
+  align-items: center;
+  height: 45vh;
+}
+
+.info_container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.info h2 {
+  font-size: 50px;
+  color: #ff7835;
+}
+
+.info p {
+  margin-top: 20px;
+  font-size: 25px;
+  color: #fff;
+} */
+/* Info End */
 
 /* Footer Section */
 footer {
@@ -421,4 +449,64 @@ align-items: center;
 font-size: 18px;
 margin-top: 5px;
 color: #ff7835;
+}
+
+/* Test */
+.information {
+  padding: 80px 0px;
+  background-color: #121212;
+}
+
+.information_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 20px;
+}
+
+.information h2 {
+  font-size: 55px;
+  margin-bottom: 20px;
+  color: #ff7835;
+}
+
+.information p {
+  font-size: 28px;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.information img {
+  display: block;
+  max-width: 90%;
+  height: auto;
+  margin: 0px 160px;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  margin: 20px 0px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 25px;
+  border: 2px solid #ff7835;
+}
+
+.btn:hover {
+  transition: all 0.2s ease;
+  background-color: #ff7835;
 }
