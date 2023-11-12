@@ -54,7 +54,7 @@
                 CLOSE
             </div>
             <div class="checkout">
-                <a href="login(1).php">CHECKOUT</a>
+                <a href="checkout.html">CHECKOUT</a>
             </div>
         </div>
     </div>

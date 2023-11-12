@@ -22,7 +22,7 @@
 
             <ul class="navbar-menu">
                 <li class="navbar-item">
-                    <a href="/test product page/index (1).html" class="navbar-link">Home</a>
+                    <a href="/test product page/index_loggedin (1).html" class="navbar-link">Home</a>
                 </li>
                 <li class="navbar-item">
                     <a href="/producten_loggedin.html" class="navbar-link">Producten</a>
