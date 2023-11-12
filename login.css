@@ -80,8 +80,22 @@ body {
     margin-bottom: 20px;
   }
 
-  .btn {
+  .register-btn {
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
     text-decoration: none;
+  }
+
+  .home-btn {
+    margin: 5px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+  }
+
+  .register-txt {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
   }
 
   img {

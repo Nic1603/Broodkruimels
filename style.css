@@ -78,6 +78,7 @@ body {
   text-decoration: none;
 }
 
+
 .navbar-menu .dropdown-content {
   display: none;
   position: absolute;
@@ -401,33 +402,6 @@ margin-top: 60px;
 }
 /* Services End */
 
-
-
-/* Info Section */
-/* .info {
-  padding: 80px 0px;
-  background: #121212;
-  align-items: center;
-  height: 45vh;
-}
-
-.info_container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
-
-.info h2 {
-  font-size: 50px;
-  color: #ff7835;
-}
-
-.info p {
-  margin-top: 20px;
-  font-size: 25px;
-  color: #fff;
-} */
-/* Info End */
 
 /* Footer Section */
 footer {

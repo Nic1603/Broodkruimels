@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, 
     initial-scale=1.0" />
     <title>Broodkruimels</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -13,27 +14,32 @@
     <nav class="navbar">
         <div class="navbar-container">
             <a href="/" id="navbar-logo">BROODKRUIMELS</a>
-                <div class="navbar-toggle" id="mobile-menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
 
             <ul class="navbar-menu">
                 <li class="navbar-item">
-                    <a href="/" class="navbar-link">Home</a>
+                    <a href="index_loggedin.html" class="navbar-link">Home</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="/test product page/index (1).html" class="navbar-link">Producten</a>
+                    <a href="/producten_loggedin.html" class="navbar-link">Producten</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="/over ons.html" class="navbar-link">Over Ons</a>
+                    <a href="/over ons_loggedin.html" class="navbar-link">Over Ons</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="/contact.html" class="navbar-link">Contact</a>
+                    <a href="/contact_loggedin.html" class="navbar-link">Contact</a>
                 </li>
-                <li class="navbar-item">
-                    <a href="login.php" class="navbar-link">Login</a>
+                <li class="navbar-item dropdown">
+                    <a href="#" class="navbar-link">
+                        <i class="fas fa-user"></i> Account
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="logout.php"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -47,7 +53,7 @@
             <div class="main-content">
                 <h1>LEKKERNIJEN VOOR JOU</h1>
                 <h2>MINIMALISTISCH IS ONS RECEPT</h2>
-                <a href="producten.html" class="btn">BEKIJK HIER</a>
+                <a href="producten_loggedin.html" class="btn">BEKIJK HIER</a>
             </div>
             
         </div>
@@ -62,32 +68,28 @@
                         <img src="images/bakery.png" alt="">
                         <h2>Meerdere locaties</h2>
                         <p>Wij hebben meerdere vestigingen door 
-                        heel Noord-Holland. Amsterdam, Haarlem en Alkmaar
-                        zijn goede voorbeelden hiervan.
-                        </p>
+                        heel Noord-Holland. Ieder vestiging komt 
+                        met hun onze</p>
                     </div>
                     <div class="services_card">
                         <img src="images/pastry.png" alt="">
                         <h2>Beste Qualiteit</h2>
-                        <p>De producten van Broodkruimels steken
+                        <p>De producten van Broodkruimels is steken
                         uit in qualiteit vergeleken met andere 
-                        bakkerijen in Nederland.
+                        bakkers in Nederland
                         </p>
                     </div>
                     <div class="services_card">
                         <img src="images/order.png" alt="">
                         <h2>Makkelijk Bestellen</h2>
-                        <p>Door onze moderne en gebruikersvriendelijke website
-                        maken wij het makkelijk voor u om een keuze te maken van
-                        onze producten.
-                        </p>
+                        <p>Hier maken wij onze broodjes, taart, croissants, 
+                        cake, gevulde broodjes, cinnamon buns, </p>
                     </div>
                     <div class="services_card">
                         <img src="images/delivery-truck.png" alt="">
                         <h2>Snel Bezorgd</h2>
-                        <p>Bestellingen duren niet lang vanwege onze meerdere 
-                        vestigingen in Noord-Holland.
-                        </p>
+                        <p>Bestellingen duren niet vanwege onze meerdere 
+                        vestigingen in Noord-Holland </p>
                     </div>
             </div>
     </div>

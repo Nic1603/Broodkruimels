@@ -29,10 +29,11 @@
 
     <p>Nog geen account aangemaakt?</p>
     <a href="register.php" class="btn">Klik hier</a>
-    
-    <button type="submit">Login</button>
 
     <a href="index.html" class="btn">Home</a>
+    
+    
+    <button type="submit">Login</button>
   </form>
 </div>
 
