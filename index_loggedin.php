@@ -22,7 +22,7 @@
 
             <ul class="navbar-menu">
                 <li class="navbar-item">
-                    <a href="index_loggedin.html" class="navbar-link">Home</a>
+                    <a href="/test product page/index (1).html" class="navbar-link">Home</a>
                 </li>
                 <li class="navbar-item">
                     <a href="/producten_loggedin.html" class="navbar-link">Producten</a>
@@ -119,7 +119,7 @@
     <!-- Footer Section -->
     <footer>
         <div class="container">
-          <p>&copy;Broodkruimels</p>
+          <p>&copy;Broodkruimels Version : 1.0</p>
           <p>Info@broodkruimels.com</p>
         </div>
     </footer>
