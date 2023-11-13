@@ -207,8 +207,7 @@ body {
 }
 
 
-/* Hero Section */
-/* Hero Section */
+/* Main Section */
 .contact {
   display: flex;
   justify-content: center;
@@ -233,6 +232,10 @@ body {
     justify-content: center;
 }
 
+.btn {
+  text-decoration: none;
+  color: #ff7835;
+}
 
 .info h2 {
   margin-top: 20px;
@@ -246,8 +249,7 @@ body {
 .info a:hover {
     text-decoration: underline;
 }
-
-/* You can add more styles as needed */
+/* Main End */
 
 /* Footer Section */
 footer {

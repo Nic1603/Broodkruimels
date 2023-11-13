@@ -14,14 +14,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f9f5ec;
+    background-color: #121212;
   }
 
   .login-container {
-    background-color: #fff;
+    background-color: #121212;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(228, 0, 0, 0.637);
     width: 80%;
     max-width: 400px;
     display: flex;
@@ -30,13 +30,13 @@ body {
   }
 
   h2 {
-    color: #805b3d;
+    color: #ff7835;
   }
 
   label {
     display: block;
     margin: 10px 0 5px;
-    color: #805b3d;
+    color: #fff;
   }
 
   .input-group {
@@ -62,7 +62,7 @@ body {
   }
 
   button {
-    background-color: #805b3d;
+    background-color: #ff7835;
     color: #fff;
     padding: 15px;
     border: none;
